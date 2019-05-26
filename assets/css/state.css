@@ -1,0 +1,49 @@
+li a:hover {
+    color: #666666;
+}
+
+@media screen and (max-width: 980px) {
+    .l-content {
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        position: static;
+        grid-row: 1 / 2;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .profile-img {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    body {
+        grid-template-rows: 152px 1fr 48px;
+    }
+
+    .l-toolbar {
+        grid-template-columns: 1fr;
+        grid-template-rows: 76px 76px;
+        height: 152px;
+    }
+
+    .l-toolbar--title {
+        grid-row: 1 / 2;
+        grid-column: 1;
+        width: 100%;
+    }
+
+    .l-toolbar--nav {
+        grid-row: 2 / 3;
+        grid-column: 1;
+        width: 100%;
+    }
+}

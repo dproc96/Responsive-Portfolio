@@ -1,0 +1,28 @@
+.l-toolbar {
+    display: grid;
+    grid-template-columns: 50px 260px 1fr 250px 50px;
+    height: 100%;
+}
+
+.l-toolbar--title {
+    grid-column: 2 / 3;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 22px 0px 22px 0px;
+}
+
+.l-toolbar--nav {
+    grid-column: 4 / 5;
+    text-align: center;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.l-content {
+    width: 920px;
+    background-color: #ffffff;
+    display: block;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+}
